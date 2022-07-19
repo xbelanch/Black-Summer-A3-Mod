@@ -1,0 +1,1 @@
+This mod is released under following license: [Arma Public Share Like Licence](https://www.bohemia.net/community/licenses/arma-public-license-share-alike) (APL-SA).

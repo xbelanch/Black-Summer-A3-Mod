@@ -1,0 +1,40 @@
+{
+	"srcDir": "./src",
+	"buildDir": "./build",
+	"packedDir": "./packed",
+	"dstDir": "/mnt/c/Users/Rotter/Documents/Arma 3/missions",
+	"missionName": "escape-black-summer-mod",
+	"replace": {
+		"version": "0.1.0",
+		"name": "Black Summer",
+		"fullname": "Escape the Black Summer Mod"
+	},
+	"parsedFiles": [
+		"mission.sqm",
+		"defines.hpp"
+	],
+	"terrains": [{
+		"name": "VR",
+		"class": "VR",
+		"path": "./terrains/VR",
+		"replace": {
+			"terrain": "vr",
+			"name": "Virtual Reality"
+		}
+	}],
+	"missions": [{
+			"terrain": "VR",
+			"sqm": "VR",
+			"mod": "Vanilla",
+			"replace": {},
+			"name": "escape-black-summer-VR"
+		},
+		{
+			"terrain": "Altis",
+			"sqm": "Altis",
+			"mod": "Vanilla",
+			"replace": {},
+			"name": "escape-black-summer-Altis"
+		}
+	]
+}
